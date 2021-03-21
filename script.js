@@ -21,7 +21,7 @@ pizzaJson.map((item, index)=>{
     pizzaItem.querySelector('a').addEventListener('click', (e)=>{
         e.preventDefault();
 
-        let key = e.target.closest('.pizza-item').getAttribute('data-key');
+        let key = e.target.closest('.pizza-item').getAttribute('data-key');   
         modalQt = 1;
         modalKey = key;
 
